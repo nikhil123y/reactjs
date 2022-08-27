@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.cardImg {
+  height: 300px;
+  border: 1px solid gray;
+}
