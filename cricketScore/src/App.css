@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:start;
+  align-items: flex-start;
+  padding: 0%;
+  margin: 1%;
+}
+button{
+  display: flex;
+  margin:2%;
+  justify-content: space-evenly;
+}
+
+img{
+  width: 500px;
+  height: 300px;
+}
+h1{
+  width: 100vw;
+  background-color: aqua;
+}
