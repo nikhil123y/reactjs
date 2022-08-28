@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+img
+{
+  width:250px;
+  height:250px;
+}
+flex-container{
+  display:inline-block;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 100vh;
+}
+
+.box{
+  background-color: blue;
+  display:flex;
+  flex-direction: row;
+}
