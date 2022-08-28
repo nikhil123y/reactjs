@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App-header {
+  background-color:blueviolet;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.input-wrapper{
+  width: 30vw;
+  height: 8vh;
+  padding: 10;
+  border-radius: 20px;
+  border: none;
+  font-size: 20;
+}
+
+button{
+  width: 10vw;
+  background-color: orange;
+  padding: 12px;
+  border-radius: 20px;
+  font-size: 1rem;
+  margin-left: 20px;
+}
+.span-button{
+  border-radius: 25px;
+  padding: 10px;
+  border: 2px solid white ;
+  background-color: red; 
+}
+.singleTodo{
+  border-radius: 50px;
+  margin: 10px 0;
+  background-color: aquamarine;
+  padding: 10px 20px;
+  display: flex;
+  width: 50vw;
+  align-items: center; 
+}
+.todoText{
+  text-align: start;
+  flex: 1;
+}

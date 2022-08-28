@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav{
+  list-style: none;
+  width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  color: aqua;
+}
+button{
+  width: 100px;
+
+}
+
