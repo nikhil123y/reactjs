@@ -1,0 +1,12 @@
+.iconpos{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 50px;
+}
+.iconwi{
+  width: 50px;
+}
+
+
