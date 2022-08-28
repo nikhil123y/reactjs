@@ -1,0 +1,29 @@
+
+
+$primary:lightgreen;
+
+.movie{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.movieposter{
+    width: 25rem;
+}
+
+.movieposter ,img{
+    width: 30vw;
+    height: 32vh;
+}
+
+
+
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

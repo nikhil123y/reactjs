@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background:linear-gradient(145deg,orange 30%,white 60%, green 90%); 
+  color: aquamarine;
+}
+h1{
+  color:green;
+}
+h3{
+  color: aqua;
+}
+
+.booklist{
+  width: 90vw;
+  max-width: 1170px;
+  margin:  5rem auto;
+  display: grid;
+  gap:2rem;
+}
+
+@media screen and (min-width:700px) {
+  .booklist{
+    grid-template-columns: repeat(3,1fr); 
+    width: 70vw;
+    margin:2rem;
+  }
+}
+@media screen and (max-width:690px) {
+  .booklist{
+    grid-template-columns: repeat(2,2fr);
+    width: 100vw;
+    margin: 2rem;
+  }
+  .book{
+    width: 60vw;
+  }
+  
+}
+
+.book{
+  background: lightgoldenrodyellow;
+  border-radius: 2rem;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.book h1{
+  margin-top: 0.5rem;
+}
+.boo h4{
+  margin-top: 0.5rem;
+}
+
+/* .book img{
+
+} */
+
+p{
+  color: black;
+}
